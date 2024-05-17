@@ -8,13 +8,6 @@ import { useFrame } from '@react-three/fiber';
 import React, {useState, useEffect, useRef} from "react";
 extend({ Controllers });
 
-
-/*
-创建一个新的bar，这个bar会根据控制器的移动而改变位置
-- 获取控制器坐标 - 完成
-- 获取是哪个控制器进行的交互
-- 创建bar -> 更新bar坐标
-*/
 /*
 when user hover the bar: color: blue -> red
 when user press the button AND hover the bar: generate a new bar and new bar will follow the hand movement, original bar alpha: 1 -> 0.5
